@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <!-- roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet" />
+  <!-- inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+  <!-- font-awesome icons -->
+  <link href="./fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="display navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container-fluid row">
+      <div class="col">
+        <a class="navbar-brand" href="#">
+          <span style="font-size: 1.5em; color: #04527e;">
+            <i class="fas fa-database"></i>
+          </span>
+        </a>
+      </div>
+      <div class="col">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item pl-4">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item pl-4">
+              <a class="nav-link" href="#services">Explore</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown link
+                  </a> -->
+            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul> -->
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <a class="navbar-brand float-right" target="_blank" href="https://www.linkedin.com/in/romil-jain123/">
+          <span style="font-size: 1.5em; color: #04527e;">
+            <i class="fab fa-linkedin-in pl-3"></i>
+          </span>
+        </a>
+        <a class="navbar-brand float-right" target="_blank" href="https://github.com/jainromil56">
+          <span style="font-size: 1.5em; color: #04527e;">
+            <i class="fab fa-github pl-3"></i>
+          </span>
+        </a>
+        <a class="navbar-brand float-right" target="_blank" href="https://twitter.com/Romil_Code">
+          <span style="font-size: 1.5em; color: #04527e;">
+            <i class="fab fa-twitter"></i>
+          </span>
+        </a>
+
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <!-- first section -->
+  <div class="f1-p">
+    <div class="container">
+      <div class="row f-1">
+        <div class="col">
+          Hello
+          <br />
+          <h1>I'm Romil Jain</h1>
+          Software Developer & Graphic Designer <br />
+          <button type="button" class="btn mt-3">
+            Hire Me
+          </button>
+        </div>
+        <!-- <div class="col"></div> -->
+      </div>
+    </div>
+  </div>
+  <!-- first section -->
+
+  <!-- second section -->
+  <div class="f2-p" id="About">
+    <div class="container">
+      <div class="row f-2">
+        <div class="col  d-flex justify-content-center">
+          <div class="circular-img">
+            <img src="./images/hero.jpeg" alt="" srcset="">
+          </div>
+        </div>
+        <div class="col">
+          <h1>About Me</h1>
+          Interested in Problem solving, Algorithms and data structures.<br />
+          I love working with MERN stack and open source contributions.<br />
+          I am working as a graphic designer since 2018, on many platforms
+          such as DesignContest.com, Fiverr.com, Designcrowd.com
+
+          <br />
+          <button type="button" class="btn mt-3 mr-3">
+            Hire Me
+          </button>
+          <form method="get" action="./downloads/Resume-Romil-Jain.pdf">
+            <button type="submit" class="btn btn-outline-dark mt-3">
+              Download CV
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- second section -->
+
+  <!-- third section -->
+  <div class="f3-p" id="services">
+    <div class="container">
+      <div class="row">
+        <h1>Explore</h1>
+      </div>
+      <div class="row f-3">
+        <div class="col">
+          <a style="text-decoration: none;" href="https://www.behance.net/romiljain2" target="_blank">
+            <div class="box d-flex justify-content-center">
+              Graphic Design
+              <span style="font-size: 1em;">
+                <i class="fas fa-arrow-right pl-4"></i>
+              </span>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a style="text-decoration: none;" href="https://github.com/jainromil56?tab=repositories" target="_blank">
+            <div class="box0 d-flex justify-content-center">
+              Coding Projects
+              <span style="font-size: 1em;">
+                <i class="fas fa-arrow-right pl-4"></i>
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- third section -->
+</body>
+
+</html>
